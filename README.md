@@ -20,3 +20,9 @@ Super simple indicators for loading.
 ### ms-like
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/ms-like.html)
 [![](./ms-like.gif)](./ms-like.html)
+----
+
+### spectrum
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/spectrum.html)
+[![](./spectrum.gif)](./spectrum.html)
+----
