@@ -12,7 +12,6 @@
         background: #000;
         transition: all .3s
       }
-
       .L svg {
         position: absolute;
         top: calc(50% - 12px);
@@ -20,34 +19,10 @@
         height: 24px;
         width: 24px;
       }
-
       .path {
-        -webkit-animation: dash 3s linear infinite;
-        animation: dash 3s linear infinite;
+        animation: A 3s linear infinite;
       }
-      @-webkit-keyframes dash {
-        0% {
-          stroke-dasharray: 50 12.8;
-          stroke-dashoffset: 0;
-        }
-        25% {
-          stroke-dasharray: 4 58.8;
-          stroke-dashoffset: -68.5px;
-        }
-        50% {
-          stroke-dasharray: 50 12.8;
-          stroke-dashoffset: -94px;
-        }
-        75% {
-          stroke-dasharray: 4 58.8;
-          stroke-dashoffset: -162.4px;
-        }
-        to {
-          stroke-dasharray: 50 12.8;
-          stroke-dashoffset: -188.4px;
-        }
-      }
-      @keyframes dash {
+      @keyframes A {
         0% {
           stroke-dasharray: 50 12.8;
           stroke-dashoffset: 0;

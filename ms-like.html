@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .L {
+      position: fixed;
+      pointer-events: none;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      transition: all .3s
+    }
+    .d {
+      position: absolute;
+      top: calc(50% - 2px);
+      left: -4px;
+      height: 4px;
+      width: 4px;
+      background: #fff;
+      animation: A 4s cubic-bezier(0, .8, 1, .2) calc(var(--d) * .2s) infinite;
+    }
+    @keyframes A {
+      50%, to {
+        transform: translateX(calc(100vw + 4px));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="L">
+    <div style="--d:1" class="d"></div>
+    <div style="--d:2" class="d"></div>
+    <div style="--d:3" class="d"></div>
+    <div style="--d:4" class="d"></div>
+    <div style="--d:5" class="d"></div>
+    <div style="--d:6" class="d"></div>
+    <div style="--d:7" class="d"></div>
+  </div>
+</body>
+</html>

@@ -7,7 +7,6 @@ Super simple indicators for loading.
 [![](./ios-like1.gif)](./ios-like1.html)
 ----
 
-
 ### ios-like(2)
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/ios-like2.html)
 [![](./ios-like2.gif)](./ios-like2.html)
@@ -16,3 +15,8 @@ Super simple indicators for loading.
 ### chrome-like
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/chrome-like.html)
 [![](./chrome-like.gif)](./chrome-like.html)
+----
+
+### ms-like
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/ms-like.html)
+[![](./ms-like.gif)](./ms-like.html)
