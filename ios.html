@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .L {
+      position: fixed;
+      pointer-events: none;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      transition: all .3s
+    }
+    .L svg {
+      position: absolute;
+      top: calc(50% - 11px);
+      left: calc(50% - 11px);
+      height: 22px;
+      width: 22px
+    }
+    .L svg path {
+      opacity: .2;
+      -webkit-animation: 1.2s calc(var(--d) * .1s) A infinite;
+              animation: 1.2s calc(var(--d) * .1s) A infinite
+    }
+    @-webkit-keyframes A {
+      0% {opacity: 1}
+      to {opacity: .2}
+    }
+    @keyframes A {
+      0% {opacity: 1}
+      to {opacity: .2}
+    }
+  </style>
+</head>
+<body>
+  <div class="L">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><g fill-rule="nonzero" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <path style="--d:1" d="M11 1v3"/>
+      <path style="--d:2" d="M16 2.34l-1.5 2.6"/>
+      <path style="--d:3" d="M19.66 6l-2.6 1.5"/>
+      <path style="--d:4" d="M18 11h3"/>
+      <path style="--d:5" d="M17.06 14.5l2.6 1.5"/>
+      <path style="--d:6" d="M14.5 17.06l1.5 2.6"/>
+      <path style="--d:7" d="M11 18v3"/>
+      <path style="--d:8" d="M7.5 17.06L6 19.66"/>
+      <path style="--d:9" d="M4.94 14.5L2.34 16"/>
+      <path style="--d:10" d="M1 11h3"/>
+      <path style="--d:11" d="M2.34 6l2.6 1.5"/>
+      <path style="--d:12" d="M6 2.34l1.5 2.6"/>
+    </g></svg>
+  </div>
+</body>
+</html>
