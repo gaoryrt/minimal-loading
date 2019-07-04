@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .L {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #000;
+    }
+    .d {
+      position: absolute;
+      top: calc(50% + 12px);
+      left: calc(50% - 2px);
+      transform-origin: 0 -12px;
+      height: 4px;
+      width: 4px;
+      background: #fff;
+      border-radius: 4px;
+      animation: A 2s cubic-bezier(0, .7, 1, .3) calc(var(--d) * -.25s) infinite;
+    }
+    @keyframes A {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="L">
+    <div style="--d:1" class="d"></div>
+    <div style="--d:2" class="d"></div>
+    <div style="--d:3" class="d"></div>
+    <div style="--d:4" class="d"></div>
+    <div style="--d:5" class="d"></div>
+  </div>
+</body>
+</html>
