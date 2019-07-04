@@ -2,7 +2,7 @@
 
 Super simple indicators for loading.
 
-### ios-like(1)
+### ios-like
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/ios-like1.html)
 [![](./gif/ios-like1.gif)](./html/ios-like1.html)
 ----
@@ -25,6 +25,11 @@ Super simple indicators for loading.
 ### spectrum
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/spectrum.html)
 [![](./gif/spectrum.gif)](./html/spectrum.html)
+----
+
+### spectrum(2)
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/spectrum2.html)
+[![](./gif/spectrum2.gif)](./html/spectrum2.html)
 ----
 
 ### windows

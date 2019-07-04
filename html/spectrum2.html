@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .L {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #000;
+    }
+    .r,
+    .g,
+    .b {
+      top: calc(50% - 11px);
+      left: calc(50% - 11px);
+      position: absolute;
+      transform-origin: 50% 0;
+      height: 22px;
+      width: 22px;
+      border-radius: 100%;
+      mix-blend-mode: exclusion;
+      animation: A 2s cubic-bezier(0, .9, 1, .1) calc(var(--c) * -.1s) infinite;
+    }
+    .r {
+      background: #F00;
+    }
+    .g {
+      background: #0F0;
+    }
+    .b {
+      background: #00F;
+    }
+    @keyframes A {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="L">
+    <div style="--c:3" class="b"></div>
+    <div style="--c:2" class="g"></div>
+    <div style="--c:1" class="r"></div>
+  </div>
+</body>
+</html>
