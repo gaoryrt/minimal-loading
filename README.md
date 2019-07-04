@@ -26,3 +26,8 @@ Super simple indicators for loading.
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/spectrum.html)
 [![](./gif/spectrum.gif)](./html/spectrum.html)
 ----
+
+### windows
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/windows.html)
+[![](./gif/windows.gif)](./html/windows.html)
+----
