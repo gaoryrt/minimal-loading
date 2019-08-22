@@ -36,3 +36,8 @@ Super simple indicators for loading.
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/windows.html)
 [![](./gif/windows.gif)](./html/windows.html)
 ----
+
+### spotify-like
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/spotify-like.html)
+[![](./gif/spotify-like.gif)](./html/spotify-like.html)
+----

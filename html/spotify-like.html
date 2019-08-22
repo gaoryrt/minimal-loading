@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .L {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #000;
+      }
+      .C {
+        position: absolute;
+        top: calc(50% - 12px);
+        left: calc(50% - 12px);
+        height: 24px;
+        width: 24px;
+        border-radius: 12px;
+        opacity: .8;
+        background: conic-gradient(from 90deg, #fff, rgba(0,0,0,0));
+        animation: a 1s linear infinite;
+      }
+      .C::after {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        top: 4px;
+        left: 4px;
+        content: '';
+        background: #000;
+        border-radius: 12px;
+      }
+      .R {
+        background: conic-gradient(from 90deg,  rgba(0,0,0,0), #fff);
+        animation: b 2s linear infinite;
+      }
+      @keyframes a {
+        to {
+          transform: rotate(1turn)
+        }
+      }
+      @keyframes b {
+        to {
+          transform: rotate(-1turn)
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="L">
+      <div class="C"></div>
+      <div class="C R"></div>
+    </div>
+  </body>
+</html>
