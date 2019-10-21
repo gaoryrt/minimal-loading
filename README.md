@@ -13,7 +13,7 @@ Super simple indicators for loading.
 ----
 
 ### ios-like(2.1)
-![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/ios-like2.1.html)
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/ios-like2.1.html) SMALLER!
 [![](./gif/ios-like2.1.gif)](./html/ios-like2.1.html)
 ----
 
