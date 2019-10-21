@@ -12,6 +12,11 @@ Super simple indicators for loading.
 [![](./gif/ios-like2.gif)](./html/ios-like2.html)
 ----
 
+### ios-like(2.1)
+![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/ios-like2.1.html)
+[![](./gif/ios-like2.1.gif)](./html/ios-like2.1.html)
+----
+
 ### chrome-like
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/chrome-like.html)
 [![](./gif/chrome-like.gif)](./html/chrome-like.html)
