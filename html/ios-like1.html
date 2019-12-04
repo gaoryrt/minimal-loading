@@ -1,44 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
-    .L {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background: #000;
-    }
-    .L svg {
-      position: absolute;
-      top: calc(50% - 11px);
-      left: calc(50% - 11px);
-      height: 22px;
-      width: 22px
-    }
-    .L svg path {
-      opacity: .2;
-      animation: .8s calc(var(--d) * .1s) A infinite
-    }
-    @keyframes A {
-      0% {opacity: 1}
-      to {opacity: .2}
-    }
-  </style>
-</head>
-<body>
-  <div class="L">
-    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="2"  stroke-linecap="round">
-      <path style="--d:8" d="M11 1v4"/>
-      <path style="--d:7" d="M3.93 3.93l2.83 2.83"/>
-      <path style="--d:6" d="M1 11h4"/>
-      <path style="--d:5" d="M3.93 18.07l2.83-2.83"/>
-      <path style="--d:4" d="M11 17v4"/>
-      <path style="--d:3" d="M15.24 15.24l2.83 2.83"/>
-      <path style="--d:2" d="M17 11h4"/>
-      <path style="--d:1" d="M15.24 6.76l2.83-2.83"/>
-    </g></svg>
-  </div>
-</body>
+  <body>
+    <svg width="42px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 22 22">
+      <style>
+        svg {
+          animation: A 1.2s steps(8) infinite;
+        }
+        @keyframes A {
+          to {
+            transform: rotate(1turn);
+          }
+        }
+      </style>
+      <g stroke="#FFF" stroke-width="2" stroke-linecap="round">
+        <path stroke="#000" d="M11 1v4" />
+        <path stroke="#222" d="M3.93 3.93l2.83 2.83" />
+        <path stroke="#444" d="M1 11h4" />
+        <path stroke="#666" d="M3.93 18.07l2.83-2.83" />
+        <path stroke="#888" d="M11 17v4" />
+        <path stroke="#aaa" d="M15.24 15.24l2.83 2.83" />
+        <path stroke="#ccc" d="M17 11h4" />
+        <path stroke="#eee" d="M15.24 6.76l2.83-2.83" />
+      </g>
+    </svg>
+  </body>
 </html>

@@ -12,11 +12,6 @@ Super simple indicators for loading.
 [![](./gif/ios-like2.gif)](./html/ios-like2.html)
 ----
 
-### ios-like(2.1)
-![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/ios-like2.1.html) SMALLER!
-[![](./gif/ios-like2.1.gif)](./html/ios-like2.1.html)
-----
-
 ### chrome-like
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/chrome-like.html)
 [![](./gif/chrome-like.gif)](./html/chrome-like.html)
@@ -46,3 +41,7 @@ Super simple indicators for loading.
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/spotify-like.html)
 [![](./gif/spotify-like.gif)](./html/spotify-like.html)
 ----
+
+# donate
+[![](https://cdn.buymeacoffee.com/buttons/default-white.png)](https://www.buymeacoffee.com/pT2Y5iN)
+![](https://jungle.fm/assets/donate.jpg)
