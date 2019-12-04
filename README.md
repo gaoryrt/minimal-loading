@@ -46,3 +46,7 @@ Super simple indicators for loading.
 ![](https://img.badgesize.io/gaoryrt/minimal-loading/master/html/spotify-like.html)
 [![](./gif/spotify-like.gif)](./html/spotify-like.html)
 ----
+
+# donate
+[![](https://cdn.buymeacoffee.com/buttons/default-white.png)](https://www.buymeacoffee.com/pT2Y5iN)
+![](https://jungle.fm/assets/donate.jpg)
