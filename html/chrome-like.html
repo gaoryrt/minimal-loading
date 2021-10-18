@@ -1,66 +1,55 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      .L {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: #000;
-      }
-      .L svg {
-        position: absolute;
-        top: calc(50% - 12px);
-        left: calc(50% - 12px);
-        height: 24px;
-        width: 24px;
-      }
-      .path {
-        animation: A 3s linear infinite;
-      }
-      @keyframes A {
-        0% {
-          stroke-dasharray: 50 13;
-          stroke-dashoffset: 0;
-        }
-        13% {
-          stroke-dasharray: 4 59;
-          stroke-dashoffset: -55px;
-        }
-        25% {
-          stroke-dasharray: 4 59;
-        }
-        38% {
-          stroke-dasharray: 50 13;
-        }
-        50% {
-          stroke-dasharray: 50 13;
-          stroke-dashoffset: -94px;
-        }
-        63% {
-          stroke-dasharray: 4 59;
-          stroke-dashoffset: -147px;
-        }
-        75% {
-          stroke-dasharray: 4 59;
-        }
-        88% {
-          stroke-dasharray: 50 13;
-        }
-        to {
-          stroke-dasharray: 50 13;
-          stroke-dashoffset: -188px;
-        }
-      }
-    </style>
-  </head>
+<html lang="en">
   <body>
-    <div class="L">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24" width=24>
-        <circle stroke-linecap="round" class="path" cx="12" cy="12" r="10" fill="#000" stroke-width="4" stroke="#fff"/>
-      </svg>
-    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="240px" viewbox="0 0 24 24">
+      <style>
+        circle {
+          animation: A 3s linear infinite;
+        }
+        @keyframes A {
+          0% {
+            stroke-dasharray: 50 13;
+            stroke-dashoffset: 0;
+          }
+          13% {
+            stroke-dasharray: 4 59;
+            stroke-dashoffset: -55px;
+          }
+          25% {
+            stroke-dasharray: 4 59;
+          }
+          38% {
+            stroke-dasharray: 50 13;
+          }
+          50% {
+            stroke-dasharray: 50 13;
+            stroke-dashoffset: -94px;
+          }
+          63% {
+            stroke-dasharray: 4 59;
+            stroke-dashoffset: -147px;
+          }
+          75% {
+            stroke-dasharray: 4 59;
+          }
+          88% {
+            stroke-dasharray: 50 13;
+          }
+          to {
+            stroke-dasharray: 50 13;
+            stroke-dashoffset: -188px;
+          }
+        }
+      </style>
+      <circle
+        stroke-linecap="round"
+        cx="12"
+        cy="12"
+        r="10"
+        fill="#0000"
+        stroke-width="4"
+        stroke="#000"
+      />
+    </svg>
   </body>
 </html>
