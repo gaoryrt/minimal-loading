@@ -44,4 +44,3 @@ Super simple indicators for loading.
 
 # donate
 [![](https://cdn.buymeacoffee.com/buttons/default-white.png)](https://www.buymeacoffee.com/pT2Y5iN)
-![](https://jungle.fm/assets/donate.jpg)
